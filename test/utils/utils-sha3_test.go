@@ -32,7 +32,7 @@ import (
 
 func TestUtilsSha3(t *testing.T) {
 
-	var connection = test.Tom_connection
+	var connection = manager.Tom_Manager
 
 	sha3String, err := connection.Utils.Sha3("test")
 

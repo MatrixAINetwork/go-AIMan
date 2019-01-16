@@ -29,7 +29,7 @@ import (
 
 func TestPersonalListAccounts(t *testing.T) {
 
-	var connection = test.Tom_connection
+	var connection = manager.Tom_Manager
 
 	_, err := connection.Personal.ListAccounts()
 

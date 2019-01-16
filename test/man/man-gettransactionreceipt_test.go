@@ -28,7 +28,7 @@ import (
 	"math/big"
 	"testing"
 	"github.com/matrix/go-AIMan/common"
-	"github.com/matrix/go-AIMan/test"
+	"github.com/matrix/go-AIMan/manager"
 )
 
 func TestEthGetTransactionReceipt(t *testing.T) {
@@ -44,7 +44,7 @@ func TestEthGetTransactionReceipt(t *testing.T) {
 
 	json.Unmarshal(content, &unmarshalResponse)
 
-	var connection = test.Tom_connection
+	var connection = manager.Tom_Manager
 	bytecode := unmarshalResponse.Bytecode
 	contract, err := connection.Man.NewContract(unmarshalResponse.Abi)
 

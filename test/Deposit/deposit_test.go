@@ -8,7 +8,7 @@ import (
 	"github.com/matrix/go-AIMan/AIMan"
 	"time"
 	"errors"
-	"github.com/matrix/go-AIMan/test"
+	"github.com/matrix/go-AIMan/manager"
 )
 
 func SendDepositTrans(connect *AIMan.AIMan,depAddr string,amount *big.Int,from string,passphrase string)error{
@@ -55,7 +55,7 @@ func TestSendDepositCheck(t *testing.T){
 	Man1 := new(big.Int).SetUint64(1e18)
 	amount := new(big.Int).SetUint64(10000)
 	amount = amount.Mul(amount,Man1)
-	err := SendDepositTrans(test.Jerry_connection,"MAN.rp9DVBpuVHwPQGYGeLDHCtRnAA3n",
+	err := SendDepositTrans(manager.Jerry_Manager,"MAN.rp9DVBpuVHwPQGYGeLDHCtRnAA3n",
 		amount,"MAN.4BRmmxsC9iPPDyr8CRpRKUcp7GAww","R7c5Rsrj1Q7r4d5fp")
 	if err != nil {
 		t.Error(err)

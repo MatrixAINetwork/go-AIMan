@@ -29,7 +29,7 @@ import (
 
 func Test_HttpProvider(t *testing.T) {
 
-	var ethClient = test.Tom_connection
+	var ethClient = manager.Tom_Manager
 
 	var _, error = ethClient.ClientVersion()
 

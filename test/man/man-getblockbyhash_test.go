@@ -24,13 +24,11 @@ package test
 import (
 	"testing"
 
-	"github.com/matrix/go-AIMan/test"
-	"encoding/json"
+	"github.com/matrix/go-AIMan/manager"
 )
-
 func TestEthGetBlockByHash(t *testing.T) {
 
-	var connection = test.Tom_connection
+	var connection = manager.Tom_Manager
 
 	blockNumber, err := connection.Man.GetBlockNumber()
 	if err != nil {
@@ -47,8 +45,6 @@ func TestEthGetBlockByHash(t *testing.T) {
 
 	blockByHash, err := connection.Man.GetBlockByHash(blockByNumber.Hash, false)
 
-	t.Log(blockByHash)
-	t.Log(json.Marshal(blockByHash))
 	if err != nil {
 		t.Error(err)
 		t.FailNow()
@@ -88,7 +84,71 @@ func TestEthGetBlockByHash(t *testing.T) {
 
 	blockByHash, err = connection.Man.GetBlockByHash("0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa", false)
 
+	if err == nil && len(blockByHash.Hash)>0 {
+		t.Errorf("Found a block with incorrect hash?")
+		t.FailNow()
+	}
+}
+
+func TestEthGetBlockByHashFull(t *testing.T) {
+
+	var connection = manager.Tom_Manager
+
+	blockNumber, err := connection.Man.GetBlockNumber()
+	if err != nil {
+		t.Error(err)
+		t.FailNow()
+	}
+
+	blockByNumber, err := connection.Man.GetBlockByNumber(blockNumber, true)
+
+	if err != nil {
+		t.Error(err)
+		t.FailNow()
+	}
+
+	blockByHash, err := connection.Man.GetBlockByHash(blockByNumber.Hash, true)
+
+	if err != nil {
+		t.Error(err)
+		t.FailNow()
+	}
+
+	// Ensure it's the same block
+	if (blockByNumber.Number.ToInt().Cmp(blockByHash.Number.ToInt())) != 0 ||
+		(blockByNumber.Miner != blockByHash.Miner) ||
+		(blockByNumber.Hash != blockByHash.Hash) {
+		t.Errorf("Not same block returned")
+		t.FailNow()
+		t.FailNow()
+	}
+
+	t.Log(blockByHash.Hash, blockByNumber.Hash)
+
+	_, err = connection.Man.GetBlockByHash("0x1234", true)
+
 	if err == nil {
+		t.Errorf("Invalid hash not rejected")
+		t.FailNow()
+	}
+
+	_, err = connection.Man.GetBlockByHash("0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa0", true)
+
+	if err == nil {
+		t.Errorf("Invalid hash not rejected")
+		t.FailNow()
+	}
+
+	_, err = connection.Man.GetBlockByHash("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa0", true)
+
+	if err == nil {
+		t.Errorf("Invalid hash not rejected")
+		t.FailNow()
+	}
+
+	blockByHash, err = connection.Man.GetBlockByHash("0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa", true)
+
+	if err == nil && len(blockByHash.Hash)>0 {
 		t.Errorf("Found a block with incorrect hash?")
 		t.FailNow()
 	}

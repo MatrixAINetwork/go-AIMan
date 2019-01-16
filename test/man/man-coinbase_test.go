@@ -25,20 +25,27 @@ import (
 	"testing"
 
 	"github.com/matrix/go-AIMan/man/block"
-	"github.com/matrix/go-AIMan/test"
+	"github.com/matrix/go-AIMan/manager"
 )
 
 func TestEthCoinbase(t *testing.T) {
 
 
-	coinbase, err := test.Tom_connection.Man.GetCoinbase()
+	coinbase, err := manager.Tom_Manager.Man.GetCoinbase()
 
 	if err != nil {
 		t.Error(err)
 		t.FailNow()
 	}
 	t.Log(coinbase)
-	balance, err := test.Tom_connection.Man.GetBalance(coinbase, block.LATEST)
+	balance, err := manager.Tom_Manager.Man.GetBalance(coinbase, block.LATEST)
+
+	if err != nil {
+		t.Error(err)
+		t.FailNow()
+	}
+	t.Log(balance)
+	balance, err = manager.Tom_Manager.Man.GetBalance("MAN.4BRmmxsC9iPPDyr8CRpRKUcp7GAww", block.LATEST)
 
 	if err != nil {
 		t.Error(err)

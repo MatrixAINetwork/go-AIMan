@@ -29,7 +29,7 @@ import (
 
 func TestPersonalNewAccount(t *testing.T) {
 
-	var connection = test.Tom_connection
+	var connection = manager.Tom_Manager
 	address, err := connection.Personal.NewAccount("password")
 
 	if err != nil {

@@ -31,7 +31,7 @@ import (
 
 func TestPersonalSendTransaction(t *testing.T) {
 
-	var connection = test.Tom_connection
+	var connection = manager.Tom_Manager
 
 	coinbase, err := connection.Man.GetCoinbase()
 

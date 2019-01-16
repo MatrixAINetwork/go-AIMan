@@ -24,24 +24,38 @@ import (
 	"math/big"
 	"testing"
 	"time"
-	"github.com/matrix/go-AIMan/test"
 	"github.com/matrix/go-AIMan/transactions"
 	"github.com/matrix/go-AIMan/waiting"
+	"github.com/matrix/go-AIMan/manager"
+	"github.com/matrix/go-matrix/core/types"
 )
-
+func NewTestTrans(aiMan *manager.Manager)(*types.Transaction,error){
+	from := "MAN.4BRmmxsC9iPPDyr8CRpRKUcp7GAww"
+	err := aiMan.Unlock(from,"R7c5Rsrj1Q7r4d5fp")
+	if err != nil {
+		return nil,err
+	}
+	nonce,err := aiMan.Man.GetTransactionCount(from,"latest")
+	if err != nil {
+		return nil,err
+	}
+	trans := transactions.NewTransaction(nonce.Uint64(),from,big.NewInt(1000),200000,big.NewInt(18e9),
+		nil,0,0)
+	return trans,nil
+}
 func TestGetTransactionByBlockHashAndIndex(t *testing.T) {
 
-	var connection = test.Tom_connection
+	var connection = manager.Jerry_Manager
 
 	blockNumber, err := connection.Man.GetBlockNumber()
 	t.Log(blockNumber.Uint64())
 	// submit a transaction, wait for the block and there should be 1 tx.
-	trans,err := test.NewTestTrans(connection)
+	trans,err := NewTestTrans(connection)
 	if err != nil {
 		t.Error(err)
 		t.FailNow()
 	}
-	raw,err := transactions.SignTx(trans,"MAN.4BRmmxsC9iPPDyr8CRpRKUcp7GAww")
+	raw,err := connection.SignTx(trans,"MAN.4BRmmxsC9iPPDyr8CRpRKUcp7GAww")
 
 	if err != nil{
 		t.Error(err)

@@ -31,7 +31,7 @@ import (
 
 func TestNetListening(t *testing.T) {
 
-	var connection = test.Tom_connection
+	var connection = manager.Tom_Manager
 
 	listening, err := connection.Net.IsListening()
 

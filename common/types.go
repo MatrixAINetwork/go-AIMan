@@ -7,6 +7,7 @@ import (
 	"github.com/matrix/go-matrix/params"
 	"errors"
 	"github.com/matrix/go-matrix/common"
+	"encoding/json"
 )
 
 type RPCBalanceType struct {
@@ -133,8 +134,7 @@ type NetTopologyData1 struct {
 	Account  string
 	Position uint16
 }
-
-type Block struct {
+type BlockHeader struct {
 	Number     *hexutil.Big `json:"number"`
 	Hash       string   `json:"hash"`
 	Leader	   string  `json:"leader"`
@@ -147,13 +147,38 @@ type Block struct {
 	ReceiptsRoot      string   `json:"receiptsRoot,omitempty"`
 	Size       *hexutil.Big `json:"size"`
 	GasUsed    *hexutil.Big `json:"gasUsed"`
-	Nonce      *hexutil.Big `json:"nonce"`
+	Nonce      string `json:"nonce"`
 	Timestamp  *hexutil.Big `json:"timestamp"`
 	Elect             *[]Elect1                             `json:"nextElect" gencodec:"required"`
 	NetTopology       *NetTopology1                         `json:"nettopology"        gencodec:"required"`
 	Signatures        *[]common.Signature                         `json:"signatures" gencodec:"required"`
 	Version 	hexutil.Bytes `json:"version"`
 	VrfValue 	hexutil.Bytes `json:"VrfValue"`
+}
+type FullBlock struct {
+	BlockHeader
 	Transactions []*RPCTransaction `json:"transactions"`
 }
+type HashBlock struct {
+	BlockHeader
+	TxHashs []string `json:"transactions"`
+}
+type Block struct {
+	BlockHeader
+	Transactions []*RPCTransaction `json:"transactions"`
+	TxHashs []string `json:"transactions"`
+}
+func UnmarshalBlock(buff []byte,fullTx bool)(*Block,error){
+	if fullTx {
+		block := &FullBlock{}
+		err := json.Unmarshal(buff,block)
+		result := &Block{block.BlockHeader,block.Transactions,nil}
+		return result,err
+	}else{
+		block := &HashBlock{}
+		err := json.Unmarshal(buff,block)
+		result := &Block{block.BlockHeader,nil,block.TxHashs}
+		return result,err
+	}
 
+}

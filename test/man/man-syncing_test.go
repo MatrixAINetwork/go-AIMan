@@ -24,12 +24,12 @@ package test
 import (
 	"testing"
 
-	"github.com/matrix/go-AIMan/test"
+	"github.com/matrix/go-AIMan/manager"
 )
 
 func TestEthSyncing(t *testing.T) {
 
-	var connection = test.Tom_connection
+	var connection = manager.Tom_Manager
 
 	_, err := connection.Man.IsSyncing()
 

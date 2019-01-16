@@ -471,7 +471,7 @@ func (man *Man) SendTransaction(transaction *common.SendTxArgs1,password string)
 func (man *Man) SendRawTransaction(rawTx []byte) (string, error) {
 
 	params := make([]interface{}, 1)
-	params[0] = manCommon.Bytes2Hex(rawTx)
+	params[0] = "0x" + manCommon.Bytes2Hex(rawTx)
 
 	pointer := &dto.RequestResult{}
 
@@ -634,9 +634,7 @@ func (man *Man) GetBlockByNumber(number *big.Int, transactionDetails bool) (*com
 	if err != nil {
 		return nil, err
 	}
-	block := &common.Block{}
-	err = json.Unmarshal(pointer.Result,block)
-	return block,err
+	return common.UnmarshalBlock(pointer.Result,transactionDetails)
 
 }
 
@@ -725,9 +723,7 @@ func (man *Man) GetBlockByHash(hash string, transactionDetails bool) (*common.Bl
 	if err != nil {
 		return nil, err
 	}
-	block := &common.Block{}
-	err = json.Unmarshal(pointer.Result,block)
-	return block,err
+	return common.UnmarshalBlock(pointer.Result,transactionDetails)
 }
 
 // GetUncleCountByBlockHash - Returns the number of uncles in a block from a block matching the given block hash.

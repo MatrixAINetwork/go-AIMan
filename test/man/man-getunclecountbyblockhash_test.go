@@ -23,12 +23,12 @@ package test
 
 import (
 	"testing"
-	"github.com/matrix/go-AIMan/test"
+	"github.com/matrix/go-AIMan/manager"
 )
 
 func TestGetUncleCountByBlockHash(t *testing.T) {
 
-	var connection = test.Tom_connection
+	var connection = manager.Tom_Manager
 
 	blockNumber, err := connection.Man.GetBlockNumber()
 

@@ -24,12 +24,34 @@ package test
 import (
 	"testing"
 
-	"github.com/matrix/go-AIMan/test"
+	"math/big"
+	"github.com/matrix/go-AIMan/manager"
 )
+func TestEthGetGenesisBlock(t *testing.T) {
+
+	var connection = manager.Tom_Manager
+
+	block, err := connection.Man.GetBlockByNumber(big.NewInt(0), false)
+
+	if err != nil {
+		t.Error(err)
+		t.FailNow()
+	}
+	if block == nil {
+		t.Error("Block returned is nil")
+		t.FailNow()
+	}
+
+	if len(block.Hash) == 0 {
+		t.Error("Block not found")
+		t.FailNow()
+	}
+
+}
 
 func TestEthGetBlockByNumber(t *testing.T) {
 
-	var connection = test.Tom_connection
+	var connection = manager.Tom_Manager
 
 	blockNumber, err := connection.Man.GetBlockNumber()
 

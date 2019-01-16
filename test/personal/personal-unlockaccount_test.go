@@ -30,7 +30,7 @@ import (
 
 func TestPersonalUnlockAccount(t *testing.T) {
 
-	var connection = test.Tom_connection
+	var connection = manager.Tom_Manager
 
 	accounts, err := connection.Personal.ListAccounts()
 

@@ -30,7 +30,7 @@ import (
 
 func TestWeb3ClientVersion(t *testing.T) {
 
-	var connection = test.Tom_connection
+	var connection = manager.Tom_Manager
 
 	client, err := connection.ClientVersion()
 

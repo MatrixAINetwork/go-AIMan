@@ -25,12 +25,12 @@ import (
 
 	"math/big"
 	"github.com/matrix/go-AIMan/common"
-	"github.com/matrix/go-AIMan/test"
+	"github.com/matrix/go-AIMan/manager"
 )
 
 func TestEthSendTransaction(t *testing.T) {
 
-	var connection = test.Tom_connection
+	var connection = manager.Tom_Manager
 
 	coinbase, err := connection.Man.GetCoinbase()
 

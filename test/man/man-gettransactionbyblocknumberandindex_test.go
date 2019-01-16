@@ -26,12 +26,12 @@ import (
 	"github.com/matrix/go-AIMan/complex/types"
 	"github.com/matrix/go-AIMan/dto"
 	"math/big"
-	"github.com/matrix/go-AIMan/test"
+	"github.com/matrix/go-AIMan/manager"
 )
 
 func TestGetTransactionByBlockNumberAndIndex(t *testing.T) {
 
-	var connection = test.Tom_connection
+	var connection = manager.Tom_Manager
 
 	coinbase, err := connection.Man.GetCoinbase()
 

@@ -24,12 +24,12 @@ package test
 import (
 	"testing"
 
-	"github.com/matrix/go-AIMan/test"
+	"github.com/matrix/go-AIMan/manager"
 )
 
 func TestEthGasPrice(t *testing.T) {
 
-	gasPrice, err := test.Tom_connection.Man.GetGasPrice()
+	gasPrice, err := manager.Tom_Manager.Man.GetGasPrice()
 
 	if err != nil {
 		t.Error(err)

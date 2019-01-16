@@ -25,14 +25,14 @@ import (
 	"testing"
 
 	"github.com/matrix/go-AIMan/man/block"
-	"github.com/matrix/go-AIMan/test"
+	"github.com/matrix/go-AIMan/manager"
 )
 
 func TestEthGetBalance(t *testing.T) {
 
-	coinbase, _ := test.Tom_connection.Man.GetCoinbase()
+	coinbase, _ := manager.Tom_Manager.Man.GetCoinbase()
 
-	bal, err := test.Tom_connection.Man.GetBalance(coinbase, block.LATEST)
+	bal, err := manager.Tom_Manager.Man.GetBalance(coinbase, block.LATEST)
 
 	if err != nil {
 		t.Error(err)

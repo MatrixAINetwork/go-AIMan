@@ -25,24 +25,23 @@ import (
 	"testing"
 	"time"
 
-	"github.com/matrix/go-AIMan/test"
-	"github.com/matrix/go-AIMan/transactions"
 	"github.com/matrix/go-AIMan/waiting"
+	"github.com/matrix/go-AIMan/manager"
 )
 
 func TestGetBlockTransactionCountByNumber(t *testing.T) {
 
-	var connection = test.Tom_connection
+	var connection = manager.Tom_Manager
 
 	blockNumber, err := connection.Man.GetBlockNumber()
 	t.Log(blockNumber.Uint64())
 	// submit a transaction, wait for the block and there should be 1 tx.
-	trans,err := test.NewTestTrans(connection)
+	trans,err := NewTestTrans(connection)
 	if err != nil {
 		t.Error(err)
 		t.FailNow()
 	}
-	raw,err := transactions.SignTx(trans,"MAN.4BRmmxsC9iPPDyr8CRpRKUcp7GAww")
+	raw,err := connection.SignTx(trans,"MAN.4BRmmxsC9iPPDyr8CRpRKUcp7GAww")
 
 	if err != nil{
 		t.Error(err)

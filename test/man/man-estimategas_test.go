@@ -25,16 +25,16 @@ import (
 	"testing"
 
 	"math/big"
-	"github.com/matrix/go-AIMan/test"
 	"github.com/matrix/go-AIMan/common"
 	"github.com/matrix/go-matrix/common/hexutil"
 	"encoding/json"
+	"github.com/matrix/go-AIMan/manager"
 )
 
 func TestEstimateGas(t *testing.T) {
 
 
-	coinbase, err := test.Tom_connection.Man.GetCoinbase()
+	coinbase, err := manager.Tom_Manager.Man.GetCoinbase()
 
 	if err != nil {
 		t.Error(err)
@@ -59,7 +59,7 @@ func TestEstimateGas(t *testing.T) {
 		t.Error(err)
 		t.FailNow()
 	}
-	gas, err := test.Tom_connection.Man.EstimateGas(transaction)
+	gas, err := manager.Tom_Manager.Man.EstimateGas(transaction)
 
 	if err != nil {
 		t.Error(err)

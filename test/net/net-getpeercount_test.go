@@ -30,7 +30,7 @@ import (
 
 func TestNetPeerCount(t *testing.T) {
 
-	var connection = test.Tom_connection
+	var connection = manager.Tom_Manager
 
 	peers, err := connection.Net.GetPeerCount()
 

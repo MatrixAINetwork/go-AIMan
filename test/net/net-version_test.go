@@ -32,7 +32,7 @@ import (
 
 func TestNetVersion(t *testing.T) {
 
-	var connection = test.Tom_connection
+	var connection = manager.Tom_Manager
 
 	//Possible options
 	po := []string{"1", "2", "3", "4", "42"}

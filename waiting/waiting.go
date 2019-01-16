@@ -2,8 +2,8 @@ package waiting
 
 import (
 	"time"
-	"github.com/matrix/go-AIMan/AIMan"
 	"github.com/matrix/go-AIMan/dto"
+	"github.com/matrix/go-AIMan/manager"
 )
 
 type WaitInterface interface {
@@ -42,7 +42,7 @@ type Web3Waiting struct {
 	done chan struct{}
 	quit chan struct{}
  	waitCh chan struct{}
-	Web3 *AIMan.AIMan
+	Web3 *manager.Manager
 }
 func (w* Web3Waiting)makeChan(){
 	w.done = make(chan struct{},1)
@@ -80,7 +80,7 @@ type WaitBlockHeight struct {
 	Result uint64
 }
 
-func NewWaitBlockHeight(web *AIMan.AIMan,height uint64)*WaitBlockHeight{
+func NewWaitBlockHeight(web *manager.Manager,height uint64)*WaitBlockHeight{
 	w := &WaitBlockHeight{
 		Web3Waiting{Web3:web,
 		},
@@ -107,7 +107,7 @@ type WaitTxReceipt struct {
 	txhash string
 	Receipt *dto.TransactionReceipt
 }
-func NewWaitTxReceipt(web *AIMan.AIMan,txHash string)*WaitTxReceipt{
+func NewWaitTxReceipt(web *manager.Manager,txHash string)*WaitTxReceipt{
 	w := &WaitTxReceipt{
 		Web3Waiting{Web3:web,
 		},
@@ -133,7 +133,7 @@ type WaitTxReceiptAry struct {
 	Receipts map[string]*dto.TransactionReceipt
 	waiting int
 }
-func NewWaitTxReceiptAry(web *AIMan.AIMan,txHashAry []string)*WaitTxReceiptAry{
+func NewWaitTxReceiptAry(web *manager.Manager,txHashAry []string)*WaitTxReceiptAry{
 	wt := &WaitTxReceiptAry{
 		Web3Waiting{Web3:web,
 		},

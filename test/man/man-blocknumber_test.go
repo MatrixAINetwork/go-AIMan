@@ -24,14 +24,14 @@ package test
 import (
 	"testing"
 
-	"github.com/matrix/go-AIMan/test"
+	"github.com/matrix/go-AIMan/manager"
 )
 
 func TestEthBlockNumber(t *testing.T) {
 
-//	var connection = test.Tom_connection
+//	var connection = manager.Tom_Manager
 
-	blockNumber, err := test.Tom_connection.Man.GetBlockNumber()
+	blockNumber, err := manager.Tom_Manager.Man.GetBlockNumber()
 
 	if err != nil {
 		t.Error(err)
