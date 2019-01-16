@@ -1,0 +1,1155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="666ff0c6-0989-44e8-8ded-3b1629dcd767" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-22.353Z--MAN.4BRmmxsC9iPPDyr8CRpRKUcp7GAww" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-22.563Z--MAN.rp9DVBpuVHwPQGYGeLDHCtRnAA3n" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-22.764Z--MAN.JnELDGnmfzeAzKrM29GybRAsZrqf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-22.967Z--MAN.41BqapnuJN4LJYN6VFipYhdZqmQdx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-23.174Z--MAN.21sfVt4yfX2AG8hZoWL7Sg8qsMsbn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-23.383Z--MAN.3E94fFL3ABFT3yyuCbx9pVwHYngxB" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-23.587Z--MAN.4PztVqeAJ5C7UmE68fRCr1K4JSX8i" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-23.796Z--MAN.28rHS3uUmLjPE7vM6eHWDYDcXFk6J" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-24.001Z--MAN.3u3YcF38deeBAsghXFw3zefN4TAp8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-24.232Z--MAN.m3Dm2btCBWNjmwkCvJo9jKoGoZLf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-24.440Z--MAN.uMSJEQLMUBc2bnZTy26P19veY3s4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-24.642Z--MAN.kkeKVpjEzT3sxspaqSAu3JE6Zb17" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-24.850Z--MAN.4QDCEJZksjvuRA3brm2kBVoNxVPYe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-25.051Z--MAN.3SmeKvCNXesATxvu5d9kH6ZGB5HnH" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-25.259Z--MAN.4ByX7qfaFSeB5LycwZG1avSbaXtdJ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-25.462Z--MAN.2eG76SiejutpnotKzD89BuhC8x2nu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-25.663Z--MAN.dbDCzzTEEeWAkHBbKZJJXXY1TAAP" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-25.874Z--MAN.459jiXJre7QE6qT7VrFXpeU6WSgjT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-26.070Z--MAN.hpBAN6arL1r4VJft6G5x4GSqMyya" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-26.303Z--MAN.Ch1kc5RW2CDYZzPUSgtF8CizXyzb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-26.508Z--MAN.2PBeZT6CaL95Q8UnwhiQZQTStATuM" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-26.720Z--MAN.3uAZ1do5uA61TprsiGmhux9mRePmA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-26.921Z--MAN.b7Yh6aawpmjP8WKrZUSERZ9fTS3b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-27.121Z--MAN.2X21jebcWfdSWebomso6UtNB7EYoD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-27.332Z--MAN.3GoPyPXtdTceEvhJp1d8rhJyhAMLn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-27.536Z--MAN.wxzKVJVyEVQN9MCVkZyb2KFcZeNH" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-27.735Z--MAN.2kcy5RLNWC4s4UGPmESLX4tENActe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-27.947Z--MAN.urNQiM62aA8isqoqrVYkErc1b2pe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-28.151Z--MAN.2off6a6PcrcK4roEaawGnr7DNrj2C" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-28.354Z--MAN.2yp8SNRdoiFHWFuR3jUsz4RWSubCi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-28.546Z--MAN.3VyXB3cLjbMGAspa5QN8mv9oqeD9H" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-28.757Z--MAN.2vfCsEveYurBDhN5z8pY91xBZDd2n" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-28.976Z--MAN.3xRDRyjWyrgZUbMZqvWSNepdMDzdF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-29.182Z--MAN.551WnUX6oge6absKaT5tL4ZZEJKp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-29.386Z--MAN.fsWMniCYykXx9v1kNGV4WK7RJpjp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-29.581Z--MAN.3iuwtmZBNPFLKwACZpGAJAhvSYMYW" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-29.786Z--MAN.rEP3JUoQ7FPcfMtXx7ygfpSufVKG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-29.997Z--MAN.Zd3KsEkvtnxK6hiq68dyQLxBSHxQ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-30.196Z--MAN.2xnj5rgKokaBQhYNYm4etCi9AifaL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-30.397Z--MAN.PjzTMEQDHHWmhCh7cifYGdwheeLT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-30.623Z--MAN.2rcXKsmKYRewQi7c8Fc9u83JqMMUR" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-30.830Z--MAN.23HvRH6hA17GdsTFUHYZVJiCEoDog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-31.047Z--MAN.4JiWr1h6TAc8xwRKWYApuuaFQnSZ6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-31.245Z--MAN.2bFe8A6VFMG1SEw2JmWvVHvpRt2Gi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-31.461Z--MAN.2QZHhSXraug5Qj3YuWu9YBmHgLahf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-31.666Z--MAN.3Nu5zWjSaE8yyTiwPQaAN7RgEdR5g" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-31.872Z--MAN.415oZVoAJAf91UrBtwPSGKkMFtrXD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-32.086Z--MAN.3fbRNV8kBoJT1TWrtUcygE6nsNDj6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-32.287Z--MAN.gUALCDYgjbBDDYUEz5hHxW2nVzEY" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-32.507Z--MAN.4J6K4SSvLVuqv7x2wL7r7HfH57wKH" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-32.702Z--MAN.jdXfSMjfPqRzw9kCdrK4MyESpp4M" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-32.922Z--MAN.3Ekoi9tnvWqvCXpvFdVhh3UUXrroY" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-33.124Z--MAN.wFzJJ7j9oDKgbmYAaK5CofoWV5kC" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-33.328Z--MAN.wkMeJfZZPDDbkPhSv11w1xKXZ88M" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-33.538Z--MAN.2KY65ugpNxfhGzedUM28wJhcWq4qP" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-33.733Z--MAN.3pk9RWF92jrRDg7SaQpmV2tavYDUQ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-33.946Z--MAN.4CuSEJhDXWhX4SaYTAge1Fmg8A5Dk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-34.145Z--MAN.2FkEvdo3xpRTzhdJMQHvJwF6wJ2KW" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-34.350Z--MAN.3YXcFgELvw2Qhg9MSmUyc78Kn2GjH" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-34.552Z--MAN.2jsygudNUdDWhSurL17EzjnT9yQ3P" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-34.761Z--MAN.2TJwH7TtCk249hYjrUsDz7bXARNc8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-34.971Z--MAN.4ZWV2di7XViCeN1YAa48cDjCFqszn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-35.171Z--MAN.PZR54gAyFJYd4FvCxet9Amp7fLDZ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-35.373Z--MAN.2TvZ2g6a8MnsZzUGeVEUWqZ9Zh4uz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-35.580Z--MAN.3ad3oADXPwBDBfD5V9qRuCNC1i2DH" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-35.788Z--MAN.39KxNGHt9g5G7J6m4VRH9xuW1BPJo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-35.996Z--MAN.34BydeEo16qvag49Ppzt7wJ5qA7Tg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-36.196Z--MAN.4R1uRkJ1E34gbF2hGwhjP7iLDHi6o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-36.404Z--MAN.c9su2myPeEquDr2xwq6zfxrNfwbv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-36.604Z--MAN.2S7uC6TernyEUgWJfivUcXvvAJPHf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-36.809Z--MAN.4TcjdVsyhgHRMumxiQpgACYLPK3YY" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-37.013Z--MAN.273kUEmFiamfvWomoZx37g3hLxTN" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-37.217Z--MAN.2JtuAZLrZoogubfFik7JJoFasuDdN" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-37.423Z--MAN.2wrdmg2fozsiqAGoo6KYG8FnyqFP7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-37.622Z--MAN.2adY5vPMXSsLVJyr2grpGkTsaGMmD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-37.830Z--MAN.W3b9tMy8cvNpYBDKiRiEdfEj69K6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-38.036Z--MAN.2pAoPybES2HWUwpeNH5ha5PXDDdfD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-38.237Z--MAN.31feye4gZ2eDjw1Tij9LK4sUK477V" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-38.450Z--MAN.2ErE8tHxyGfDsP7YGKXvBHyiMBB5Q" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-38.648Z--MAN.3meNT4KSaSot4XeYP5vVBTii5kDxo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-38.851Z--MAN.kj4UV4VtC3W2wtXMgAfvBGpiADZW" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-39.061Z--MAN.3GRsjCYDcAuEb9LsMat2RZ9FTh7X5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-39.264Z--MAN.g3VPR2BQTW6cunMLrLqkmb8FS39U" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-39.476Z--MAN.2fLVG4nHQo2zWrz1xrQpqa5UJaLwD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-39.676Z--MAN.461Uqy8QSoiTTWkYK89uKTCYxcPtP" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-39.896Z--MAN.reSaME9irNoo7S8S2uBqehn4HGBJ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-40.091Z--MAN.4AGmgFMTEEVtH8mjRkq7MhpcoqHoE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-40.300Z--MAN.2HG9KBekNEoRWuLUpCBE4xxcBycSe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-40.512Z--MAN.2WY57sjEgCpeupjtj3ExBUU6N7tpd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-40.710Z--MAN.2DYkikx2NUxsTFeMCMZvnqYjgu1eJ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-40.919Z--MAN.WsvF4rtRwHN5eARZajTwWmmpdvPP" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-41.123Z--MAN.fxn3FUFbZ9kM7TGVy2P5Ty73iiCJ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-41.324Z--MAN.3KfZPFngEsZcBNe81D2Cy58AKXuL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-41.543Z--MAN.bjt83xuM4c4SbXfMEkxkzvz4qA43" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-41.758Z--MAN.3YaXyZgXpbu8ticdT9pM8zwD9EkpK" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-41.980Z--MAN.3Zk1k4Nbqk7emTqDifVUKCJMgJodP" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-42.184Z--MAN.wZ7wzNB7zqt8KHxNjWtRZ8j8xEUR" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-42.406Z--MAN.3pdr9cVG1G4EeP5coy7fSDqVDkEzm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-42.625Z--MAN.hcKSeMVzLrUUnLoPURroqXwM5bvx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/UTC--2019-01-15T01-58-42.828Z--MAN.3dyawJBkwA5ET6X2EYvsyFpRdqUcc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keystore/keystore.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIMAN/web3.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AUTHORS" beforeDir="false" afterPath="$PROJECT_DIR$/AUTHORS" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODE_OF_CONDUCT.md" beforeDir="false" afterPath="$PROJECT_DIR$/CODE_OF_CONDUCT.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/complex/types/complex-int.go" beforeDir="false" afterPath="$PROJECT_DIR$/complex/types/complex-int.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/complex/types/complex-string.go" beforeDir="false" afterPath="$PROJECT_DIR$/complex/types/complex-string.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/constants/error-constants.go" beforeDir="false" afterPath="$PROJECT_DIR$/constants/error-constants.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/db.go" beforeDir="false" afterPath="$PROJECT_DIR$/db/db.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dto/block.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dto/request-result.go" beforeDir="false" afterPath="$PROJECT_DIR$/dto/request-result.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dto/shh-post.go" beforeDir="false" afterPath="$PROJECT_DIR$/dto/shh-post.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dto/syncing.go" beforeDir="false" afterPath="$PROJECT_DIR$/dto/syncing.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dto/transaction.go" beforeDir="false" afterPath="$PROJECT_DIR$/dto/transaction.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eth/block/default-block-number.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eth/contract.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eth/eth.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glide.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/glide.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/net.go" beforeDir="false" afterPath="$PROJECT_DIR$/net/net.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal/personal.go" beforeDir="false" afterPath="$PROJECT_DIR$/personal/personal.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/providers/http-provider.go" beforeDir="false" afterPath="$PROJECT_DIR$/providers/http-provider.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/providers/ipc-provider.go" beforeDir="false" afterPath="$PROJECT_DIR$/providers/ipc-provider.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/providers/provider-interface.go" beforeDir="false" afterPath="$PROJECT_DIR$/providers/provider-interface.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/providers/util/json-rpc-object.go" beforeDir="false" afterPath="$PROJECT_DIR$/providers/util/json-rpc-object.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/providers/websocket-provider.go" beforeDir="false" afterPath="$PROJECT_DIR$/providers/websocket-provider.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shh/shh.go" beforeDir="false" afterPath="$PROJECT_DIR$/shh/shh.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/eth/eth-blocknumber_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/eth/eth-coinbase_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/eth/eth-contract_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/eth/eth-estimategas_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/eth/eth-gasprice_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/eth/eth-getbalance_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/eth/eth-getblockbyhash_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/eth/eth-getblockbynumber_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/eth/eth-getblocktransactioncountbyhash_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/eth/eth-getblocktransactioncountbynumber_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/eth/eth-getcode_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/eth/eth-gettransactionbyblockhashandindex_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/eth/eth-gettransactionbyblocknumberandindex_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/eth/eth-gettransactionbyhash_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/eth/eth-gettransactioncount_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/eth/eth-gettransactionreceipt_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/eth/eth-getunclecountbyblockhash_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/eth/eth-getunclecountbyblocknumber_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/eth/eth-hashrate_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/eth/eth-mining_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/eth/eth-protocolversion_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/eth/eth-sendtransaction_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/eth/eth-signtransaction_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/eth/eth-syncing_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/helpers/testhelper.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/helpers/testhelper.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/net/net-getpeercount_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/net/net-getpeercount_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/net/net-listening_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/net/net-listening_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/net/net-version_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/net/net-version_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/personal/personal-listaccounts_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/personal/personal-listaccounts_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/personal/personal-newaccount_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/personal/personal-newaccount_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/personal/personal-sendtransaction_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/personal/personal-sendtransaction_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/personal/personal-unlockaccount_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/personal/personal-unlockaccount_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/providers/http-provider_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/providers/http-provider_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/providers/ipc-provider_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/providers/ipc-provider_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/providers/websocket-provider_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/providers/websocket-provider_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/utils/utils-sha3_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/utils/utils-sha3_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/web3/web3-clientVersion_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/web3/web3-clientVersion_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/helpers.go" beforeDir="false" afterPath="$PROJECT_DIR$/utils/helpers.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/utils.go" beforeDir="false" afterPath="$PROJECT_DIR$/utils/utils.go" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="man-hashrate_test.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/man/man-hashrate_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#969#1067#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="man-protocolversion_test.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/man/man-protocolversion_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="589">
+              <caret line="36" column="19" lean-forward="true" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
+              <folding>
+                <element signature="e#976#1080#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="man-sendtransaction_test.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/man/man-sendtransaction_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-108">
+              <folding>
+                <element signature="e#975#1122#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="man-signtransaction_test.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/man/man-signtransaction_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="man-syncing_test.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/man/man-syncing_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="man-mining_test.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/man/man-mining_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-267">
+              <folding>
+                <element signature="e#967#1065#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="man-contract_test.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/man/man-contract_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+              <folding>
+                <element signature="e#960#1101#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="man-getblockbyhash_test.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/man/man-getblockbyhash_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="309">
+              <caret line="60" column="43" lean-forward="true" selection-start-line="60" selection-start-column="43" selection-end-line="60" selection-end-column="43" />
+              <folding>
+                <element signature="e#971#1045#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="types.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/types.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="244">
+              <caret line="137" column="27" selection-start-line="137" selection-start-column="27" selection-end-line="137" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="man.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/man/man.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="353">
+              <caret line="623" column="85" selection-start-line="623" selection-start-column="85" selection-end-line="623" selection-end-column="85" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>abi</find>
+      <find>hexutil.Big</find>
+      <find>hexutil.Bytes</find>
+      <find>Unlock</find>
+      <find>SelfTransaction</find>
+      <find>eth_sendRawTransaction</find>
+      <find>sendraw</find>
+      <find>RequestResult1</find>
+      <find>ExtraTo_Mx1</find>
+      <find>Sleep</find>
+      <find>After</find>
+      <find>WithSignature</find>
+      <find>LATEST</find>
+      <find>GetBlockByHash</find>
+      <find>Eth</find>
+      <find>1e18</find>
+      <find>super</find>
+      <find>RPCTransaction</find>
+      <find>go-web3</find>
+      <find>common2</find>
+      <find>eth</find>
+      <find>Web3</find>
+      <find>web3</find>
+      <find>.Eth.</find>
+      <find>go-AIMan/eth</find>
+      <find>web3 &quot;github.com/matrix/go-AIMan&quot;</find>
+      <find>&quot;github.com/matrix/go-AIMan&quot;</find>
+      <find>web3.Web3</find>
+      <find>web3.NewWeb3(providers.NewHTTPProvider(&quot;127.0.0.1:8545&quot;, 10, false))</find>
+      <find>NewContract</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>matrix</replace>
+      <replace>go-AIMan</replace>
+      <replace>Man</replace>
+      <replace>man</replace>
+      <replace>AIMan</replace>
+      <replace>.Man.</replace>
+      <replace>aiMan</replace>
+      <replace>go-AIMan/man</replace>
+      <replace>&quot;github.com/matrix/go-AIMan/AIMan&quot;</replace>
+      <replace>AIMan.AIMan</replace>
+      <replace>test</replace>
+      <replace>test.Tom_connection</replace>
+    </replaceStrings>
+  </component>
+  <component name="GOROOT" path="$USER_HOME$/software/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoLibraries">
+    <option name="urls">
+      <list>
+        <option value="file://$PROJECT_DIR$/../../../.." />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/test/eth/eth-getblockbynumber_test.go" />
+        <option value="$PROJECT_DIR$/test/eth/eth-contract_test.go" />
+        <option value="$PROJECT_DIR$/test/eth/eth-gettransactionbyhash_test.go" />
+        <option value="$PROJECT_DIR$/test/eth/eth-sendtransaction_test.go" />
+        <option value="$PROJECT_DIR$/test/eth/eth-gettransactionbyblocknumberandindex_test.go" />
+        <option value="$PROJECT_DIR$/test/eth/eth-gettransactioncount_test.go" />
+        <option value="$PROJECT_DIR$/Accounts/keyStoreManager_test.go" />
+        <option value="$PROJECT_DIR$/test/eth/eth-gettransactionreceipt_test.go" />
+        <option value="$PROJECT_DIR$/dto/transaction.go" />
+        <option value="$PROJECT_DIR$/utils/helpers.go" />
+        <option value="$PROJECT_DIR$/waiting/multiWaiting.go" />
+        <option value="$PROJECT_DIR$/transactions/transaction.go" />
+        <option value="$PROJECT_DIR$/Accounts/keystoreManager.go" />
+        <option value="$PROJECT_DIR$/test/eth/eth-getblocktransactioncountbynumber_test.go" />
+        <option value="$PROJECT_DIR$/test/eth/eth-getcode_test.go" />
+        <option value="$PROJECT_DIR$/eth/contract.go" />
+        <option value="$PROJECT_DIR$/test/eth/eth-gettransactionbyblockhashandindex_test.go" />
+        <option value="$PROJECT_DIR$/dto/block.go" />
+        <option value="$PROJECT_DIR$/dto/request-result.go" />
+        <option value="$PROJECT_DIR$/eth/eth.go" />
+        <option value="$PROJECT_DIR$/test/eth/eth-getblockbyhash_test.go" />
+        <option value="$PROJECT_DIR$/waiting/waitingBlock.go" />
+        <option value="$PROJECT_DIR$/transactions/TransSigner.go" />
+        <option value="$PROJECT_DIR$/waiting/waiting.go" />
+        <option value="$PROJECT_DIR$/test/eth/eth-getblocktransactioncountbyhash_test.go" />
+        <option value="$PROJECT_DIR$/transactions/DepositTrans.go" />
+        <option value="$PROJECT_DIR$/test/Deposit/deposit_test.go" />
+        <option value="$PROJECT_DIR$/glide.yaml" />
+        <option value="$PROJECT_DIR$/.travis.yml" />
+        <option value="$PROJECT_DIR$/man/eth.go" />
+        <option value="$PROJECT_DIR$/man/block/default-block-number.go" />
+        <option value="$PROJECT_DIR$/man/man.go" />
+        <option value="$PROJECT_DIR$/test/man/man-blocknumber_test.go" />
+        <option value="$PROJECT_DIR$/test/globalTest.go" />
+        <option value="$PROJECT_DIR$/AIMan/AIMan.go" />
+        <option value="$PROJECT_DIR$/test/man/man-coinbase_test.go" />
+        <option value="$PROJECT_DIR$/test/man/man-getbalance_test.go" />
+        <option value="$PROJECT_DIR$/test/man/man-getblocktransactioncountbyhash_test.go" />
+        <option value="$PROJECT_DIR$/test/man/man-protocolversion_test.go" />
+        <option value="$PROJECT_DIR$/man/contract.go" />
+        <option value="$PROJECT_DIR$/test/man/man-gettransactionbyhash_test.go" />
+        <option value="$PROJECT_DIR$/test/man/man-getunclecountbyblockhash_test.go" />
+        <option value="$PROJECT_DIR$/test/man/man-hashrate_test.go" />
+        <option value="$PROJECT_DIR$/test/man/man-getunclecountbyblocknumber_test.go" />
+        <option value="$PROJECT_DIR$/test/man/man-sendtransaction_test.go" />
+        <option value="$PROJECT_DIR$/test/man/man-signtransaction_test.go" />
+        <option value="$PROJECT_DIR$/test/man/man-syncing_test.go" />
+        <option value="$PROJECT_DIR$/test/man/man-mining_test.go" />
+        <option value="$PROJECT_DIR$/test/man/man-contract_test.go" />
+        <option value="$PROJECT_DIR$/common/types.go" />
+        <option value="$PROJECT_DIR$/test/man/man-getblockbyhash_test.go" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="190" />
+    <option name="y" value="16" />
+    <option name="width" value="1400" />
+    <option name="height" value="863" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="go-AIMan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="go-AIMan" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="go-AIMan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="go-AIMan" type="462c0819:PsiDirectoryNode" />
+              <item name="AIMan" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="go-AIMan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="go-AIMan" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="go-AIMan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="go-AIMan" type="462c0819:PsiDirectoryNode" />
+              <item name="complex" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="go-AIMan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="go-AIMan" type="462c0819:PsiDirectoryNode" />
+              <item name="complex" type="462c0819:PsiDirectoryNode" />
+              <item name="types" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="go-AIMan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="go-AIMan" type="462c0819:PsiDirectoryNode" />
+              <item name="constants" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="go-AIMan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="go-AIMan" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="go-AIMan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="go-AIMan" type="462c0819:PsiDirectoryNode" />
+              <item name="dto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="go-AIMan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="go-AIMan" type="462c0819:PsiDirectoryNode" />
+              <item name="net" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="go-AIMan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="go-AIMan" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="go-AIMan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="go-AIMan" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="man" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="go.gopath.indexing.explicitly.defined" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.vendoring.notification.had.been.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/keystore" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Go Test.TestEthGetBlockByHash in github.com/matrix/go-AIMan/test/man">
+    <configuration name="TestBatchSendTransactionCheck in github.com/matrix/go-web3/test/eth" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go-web3" />
+      <working_directory value="$PROJECT_DIR$/test/eth" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/matrix/go-web3/test/eth" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestBatchSendTransactionCheck$" />
+    </configuration>
+    <configuration name="TestEthBlockNumber in github.com/matrix/go-AIMan/test/man" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go-web3" />
+      <working_directory value="$PROJECT_DIR$/test/man" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/matrix/go-AIMan/test/man" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestEthBlockNumber$" />
+    </configuration>
+    <configuration name="TestEthGetBlockByHash in github.com/matrix/go-AIMan/test/man" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go-web3" />
+      <working_directory value="$PROJECT_DIR$/test/man" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/matrix/go-AIMan/test/man" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestEthGetBlockByHash$" />
+    </configuration>
+    <configuration name="TestSendDepositCheck in github.com/matrix/go-web3/test/Deposit" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go-web3" />
+      <working_directory value="$PROJECT_DIR$/test/Deposit" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/matrix/go-web3/test/Deposit" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestSendDepositCheck$" />
+    </configuration>
+    <configuration name="TestSendTransactionCheck in github.com/matrix/go-web3/test/eth" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go-web3" />
+      <working_directory value="$PROJECT_DIR$/test/eth" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/matrix/go-web3/test/eth" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestSendTransactionCheck$" />
+    </configuration>
+    <list>
+      <item itemvalue="Go Test.TestSendTransactionCheck in github.com/matrix/go-web3/test/eth" />
+      <item itemvalue="Go Test.TestBatchSendTransactionCheck in github.com/matrix/go-web3/test/eth" />
+      <item itemvalue="Go Test.TestSendDepositCheck in github.com/matrix/go-web3/test/Deposit" />
+      <item itemvalue="Go Test.TestEthBlockNumber in github.com/matrix/go-AIMan/test/man" />
+      <item itemvalue="Go Test.TestEthGetBlockByHash in github.com/matrix/go-AIMan/test/man" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Test.TestEthGetBlockByHash in github.com/matrix/go-AIMan/test/man" />
+        <item itemvalue="Go Test.TestEthBlockNumber in github.com/matrix/go-AIMan/test/man" />
+        <item itemvalue="Go Test.TestSendTransactionCheck in github.com/matrix/go-web3/test/eth" />
+        <item itemvalue="Go Test.TestSendDepositCheck in github.com/matrix/go-web3/test/Deposit" />
+        <item itemvalue="Go Test.TestBatchSendTransactionCheck in github.com/matrix/go-web3/test/eth" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TestHistory">
+    <history-entry file="TestSendTransactionCheck_in_github_com_matrix_go-web3_test_eth - 2019.01.15 at 18h 16m 18s.xml">
+      <configuration name="TestSendTransactionCheck in github.com/matrix/go-web3/test/eth" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestSendTransactionCheck_in_github_com_matrix_go-web3_test_eth - 2019.01.15 at 18h 36m 27s.xml">
+      <configuration name="TestSendTransactionCheck in github.com/matrix/go-web3/test/eth" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestBatchSendTransactionCheck_in_github_com_matrix_go-web3_test_eth - 2019.01.15 at 18h 44m 09s.xml">
+      <configuration name="TestBatchSendTransactionCheck in github.com/matrix/go-web3/test/eth" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestBatchSendTransactionCheck_in_github_com_matrix_go-web3_test_eth - 2019.01.15 at 18h 45m 40s.xml">
+      <configuration name="TestBatchSendTransactionCheck in github.com/matrix/go-web3/test/eth" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestBatchSendTransactionCheck_in_github_com_matrix_go-web3_test_eth - 2019.01.15 at 18h 46m 17s.xml">
+      <configuration name="TestBatchSendTransactionCheck in github.com/matrix/go-web3/test/eth" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestBatchSendTransactionCheck_in_github_com_matrix_go-web3_test_eth - 2019.01.15 at 18h 46m 54s.xml">
+      <configuration name="TestBatchSendTransactionCheck in github.com/matrix/go-web3/test/eth" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestBatchSendTransactionCheck_in_github_com_matrix_go-web3_test_eth - 2019.01.15 at 18h 47m 35s.xml">
+      <configuration name="TestBatchSendTransactionCheck in github.com/matrix/go-web3/test/eth" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestSendDepositCheck_in_github_com_matrix_go-web3_test_Deposit - 2019.01.15 at 19h 15m 01s.xml">
+      <configuration name="TestSendDepositCheck in github.com/matrix/go-web3/test/Deposit" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestSendTransactionCheck_in_github_com_matrix_go-web3_test_eth - 2019.01.15 at 19h 37m 15s.xml">
+      <configuration name="TestSendTransactionCheck in github.com/matrix/go-web3/test/eth" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestEthGetBlockByHash_in_github_com_matrix_go-AIMan_test_man - 2019.01.15 at 21h 40m 36s.xml">
+      <configuration name="TestEthGetBlockByHash in github.com/matrix/go-AIMan/test/man" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="65" y="-4" width="1851" height="911" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21609941" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24533" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.30012453" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.22166874" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.24590164" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21563342" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.22166874" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.14196762" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/eth/eth.go</url>
+          <line>225</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/eth/eth.go</url>
+          <line>231</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/eth/eth.go</url>
+          <line>303</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/test/eth/eth-estimategas_test.go</url>
+          <line>61</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/test/eth/eth-estimategas_test.go</url>
+          <line>53</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/test/eth/eth-estimategas_test.go</url>
+          <line>36</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/Accounts/keyStoreManager_test.go</url>
+          <line>10</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/test/eth/eth-getblocktransactioncountbyhash_test.go</url>
+          <line>181</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/test/eth/eth-getblocktransactioncountbyhash_test.go</url>
+          <line>175</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/test/eth/eth-getblocktransactioncountbyhash_test.go</url>
+          <line>170</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/test/eth/eth-getblocktransactioncountbyhash_test.go</url>
+          <line>138</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/test/eth/eth-getblocktransactioncountbyhash_test.go</url>
+          <line>136</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/test/eth/eth-getblocktransactioncountbynumber_test.go</url>
+          <line>72</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/test/eth/eth-getcode_test.go</url>
+          <line>58</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/eth/contract.go</url>
+          <line>88</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/test/eth/eth-getblockbyhash_test.go</url>
+          <line>40</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/test/eth/eth-getblockbyhash_test.go</url>
+          <line>34</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/eth/eth.go</url>
+          <line>206</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/test/man/man-getblockbyhash_test.go</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="42" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/waiting/multiWaiting.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="17" column="20" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/waiting/waitingBlock.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1170">
+          <caret line="42" column="5" lean-forward="true" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../go-matrix/accounts/abi/abi.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="64" column="48" selection-start-line="64" selection-start-column="42" selection-end-line="64" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/waiting/waiting.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2340">
+          <caret line="82" column="5" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/transactions/DepositTrans.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="27" column="48" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
+          <folding>
+            <element signature="e#22#125#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/transactions/TransSigner.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../go-matrix/core/types/transaction.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4662">
+          <caret line="274" column="5" selection-start-line="274" selection-start-column="5" selection-end-line="274" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/transactions/transaction.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="30" />
+          <folding>
+            <element signature="e#22#124#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/eth/eth-getblockbynumber_test.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/eth/eth-getblocktransactioncountbyhash_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1890">
+          <caret line="114" column="34" selection-start-line="114" selection-start-column="5" selection-end-line="114" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eth/eth.go" />
+    <entry file="file://$PROJECT_DIR$/test/Deposit/deposit_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="599">
+          <caret line="62" column="5" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/glide.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="27" lean-forward="true" selection-start-column="27" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CODE_OF_CONDUCT.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AUTHORS">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AIMan/AIMAN.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/man/eth.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/man/block/default-block-number.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#969#1026#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Accounts/keystoreManager.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+          <folding>
+            <element signature="e#18#310#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Accounts/keyStoreManager_test.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/complex/types/complex-int.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/constants/error-constants.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/man/man-estimategas_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-217">
+          <folding>
+            <element signature="e#972#1141#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/man/man-gasprice_test.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/globalTest.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="32" lean-forward="true" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+          <folding>
+            <element signature="e#14#191#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/man/man-getbalance_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+          <folding>
+            <element signature="e#971#1068#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/man/man-getblockbynumber_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2">
+          <folding>
+            <element signature="e#983#1040#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/man/man-getcode_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-432" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/man/man-gettransactionbyblockhashandindex_test.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/man/man-gettransactioncount_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1051" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/man/man-gettransactionreceipt_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-324" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/man/man-getblocktransactioncountbyhash_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="124" column="40" lean-forward="true" selection-start-line="124" selection-start-column="21" selection-end-line="124" selection-end-column="40" />
+          <folding>
+            <element signature="e#984#1181#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/man/man-blocknumber_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="33" column="47" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="47" />
+          <folding>
+            <element signature="e#973#1030#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/man/man-coinbase_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="19" column="3" lean-forward="true" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+          <folding>
+            <element signature="e#969#1066#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/man/contract.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1779">
+          <caret line="80" column="24" selection-start-line="80" selection-start-column="24" selection-end-line="80" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AIMan/AIMan.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="50" column="13" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/man/man-gettransactionbyhash_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-104">
+          <folding>
+            <element signature="e#985#1139#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/man/man-getunclecountbyblockhash_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1">
+          <folding>
+            <element signature="e#978#1075#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/man/man-getunclecountbyblocknumber_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/man/man-hashrate_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#969#1067#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/man/man-protocolversion_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="36" column="19" lean-forward="true" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
+          <folding>
+            <element signature="e#976#1080#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/man/man-sendtransaction_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-108">
+          <folding>
+            <element signature="e#975#1122#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/man/man-signtransaction_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/man/man-syncing_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/man/man-mining_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-267">
+          <folding>
+            <element signature="e#967#1065#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/man/man-contract_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+          <folding>
+            <element signature="e#960#1101#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/man/man.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="623" column="85" selection-start-line="623" selection-start-column="85" selection-end-line="623" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/types.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="137" column="27" selection-start-line="137" selection-start-column="27" selection-end-line="137" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/man/man-getblockbyhash_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="60" column="43" lean-forward="true" selection-start-line="60" selection-start-column="43" selection-end-line="60" selection-end-column="43" />
+          <folding>
+            <element signature="e#971#1045#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
