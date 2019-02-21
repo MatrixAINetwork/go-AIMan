@@ -30,7 +30,7 @@ import (
 
 	"encoding/json"
 
-	"github.com/matrix/go-AIMan/providers/util"
+	"github.com/go-AIMan/providers/util"
 )
 
 type HTTPProvider struct {

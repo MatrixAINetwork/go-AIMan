@@ -25,7 +25,7 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/matrix/go-AIMan/complex/types"
+	"github.com/go-AIMan/complex/types"
 	"math/big"
 )
 
@@ -121,7 +121,6 @@ type TransactionLogs struct {
 	LogIndex         *big.Int `json:"logIndex"`
 	Removed          bool     `json:"removed"`
 }
-
 
 func (r *TransactionLogs) UnmarshalJSON(data []byte) error {
 	type Alias TransactionLogs

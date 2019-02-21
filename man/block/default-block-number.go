@@ -21,16 +21,10 @@
 
 package block
 
-import (
-	"github.com/matrix/go-AIMan/utils"
-	"math/big"
-)
-
 // NUMBER - An integer block number
-// Reference: https://github.com/ethereum/wiki/wiki/JSON-RPC#the-default-block-parameter
-func NUMBER(blocknumber *big.Int) string {
-	return utils.IntToHex(blocknumber)
-}
+//func NUMBER(blocknumber *big.Int) string {
+//	return utils.IntToHex(blocknumber)
+//}
 
 const (
 	// EARLIEST - Earliest block

@@ -22,9 +22,9 @@
 package utils
 
 import (
-	"github.com/matrix/go-AIMan/complex/types"
-	"github.com/matrix/go-AIMan/dto"
-	"github.com/matrix/go-AIMan/providers"
+	"github.com/go-AIMan/complex/types"
+	"github.com/go-AIMan/dto"
+	"github.com/go-AIMan/providers"
 )
 
 // Utils - The Utils Module
@@ -40,7 +40,6 @@ func NewUtils(provider providers.ProviderInterface) *Utils {
 }
 
 // Sha3 - Returns Keccak-256 (not the standardized SHA3-256) of the given data.
-// Reference: https://github.com/ethereum/wiki/wiki/JSON-RPC#web3_sha3
 //    - DATA - the data to convert into a SHA3 hash
 // Returns:
 // 	  - DATA - The SHA3 result of the given string.

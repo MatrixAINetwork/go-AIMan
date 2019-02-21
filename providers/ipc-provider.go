@@ -29,7 +29,7 @@ import (
 
 	"log"
 
-	"github.com/matrix/go-AIMan/providers/util"
+	"github.com/go-AIMan/providers/util"
 )
 
 type IPCProvider struct {

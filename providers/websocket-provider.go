@@ -24,9 +24,9 @@ package providers
 import (
 	"math/rand"
 
-	"github.com/matrix/go-AIMan/constants"
+	"github.com/go-AIMan/constants"
 
-	"github.com/matrix/go-AIMan/providers/util"
+	"github.com/go-AIMan/providers/util"
 	"golang.org/x/net/websocket"
 )
 

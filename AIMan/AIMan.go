@@ -22,15 +22,15 @@
 package AIMan
 
 import (
-	"github.com/matrix/go-AIMan/dto"
-	"github.com/matrix/go-AIMan/man"
-	"github.com/matrix/go-AIMan/net"
-	"github.com/matrix/go-AIMan/personal"
-	"github.com/matrix/go-AIMan/providers"
-	"github.com/matrix/go-AIMan/utils"
+	"github.com/go-AIMan/dto"
+	"github.com/go-AIMan/man"
+	//"github.com/MatrixAINetwork/go-AIMan/net"
+	//"github.com/MatrixAINetwork/go-AIMan/personal"
+	"github.com/go-AIMan/providers"
+	//"github.com/MatrixAINetwork/go-AIMan/utils"
 )
 
-// Coin - Ethereum value unity value
+
 const (
 	Coin float64 = 1000000000000000000
 )
@@ -39,24 +39,23 @@ const (
 type AIMan struct {
 	Provider providers.ProviderInterface
 	Man      *man.Man
-	Net      *net.Net
-	Personal *personal.Personal
-	Utils    *utils.Utils
+	//Net      *net.Net
+	//Personal *personal.Personal
+	//Utils    *utils.Utils
 }
 
-// NewAIMan - AIMan Module constructor to set the default provider, Eth, Net and Personal
+// NewAIMan - AIMan Module constructor to set the default provider, Man, Net and Personal
 func NewAIMan(provider providers.ProviderInterface) *AIMan {
 	aiMan := new(AIMan)
 	aiMan.Provider = provider
 	aiMan.Man = man.NewMan(provider)
-	aiMan.Net = net.NewNet(provider)
-	aiMan.Personal = personal.NewPersonal(provider)
-	aiMan.Utils = utils.NewUtils(provider)
+	//aiMan.Net = net.NewNet(provider)
+	//aiMan.Personal = personal.NewPersonal(provider)
+	//aiMan.Utils = utils.NewUtils(provider)
 	return aiMan
 }
 
 // ClientVersion - Returns the current client version.
-// Reference: https://github.com/ethereum/wiki/wiki/JSON-RPC#web3_clientversion
 // Parameters:
 //    - none
 // Returns:

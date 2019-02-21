@@ -1,33 +1,37 @@
 package Accounts
 
 import (
-	"github.com/matrix/go-matrix/accounts/keystore"
-	"github.com/matrix/go-matrix/core/types"
-	"github.com/matrix/go-matrix/accounts"
-	"io/ioutil"
 	"fmt"
-	"github.com/matrix/go-matrix/common"
+	common1 "github.com/go-AIMan/common"
+	"github.com/MatrixAINetwork/go-matrix/accounts"
+	"github.com/MatrixAINetwork/go-matrix/accounts/keystore"
+	"github.com/MatrixAINetwork/go-matrix/base58"
+	"github.com/MatrixAINetwork/go-matrix/common"
+	"github.com/MatrixAINetwork/go-matrix/common/hexutil"
+	"github.com/MatrixAINetwork/go-matrix/core/types"
+	"github.com/MatrixAINetwork/go-matrix/rlp"
+	"io/ioutil"
 	"math/big"
-	"github.com/matrix/go-matrix/base58"
 	"time"
-	"github.com/matrix/go-matrix/rlp"
 )
 
-func EthAddressToManAddress(address common.Address)string{
-	return base58.Base58EncodeToString("MAN",address)
+func EthAddressToManAddress(address common.Address) string {
+	return base58.Base58EncodeToString("MAN", address)
 }
-func ManAddressToEthAddress(manAddr string) common.Address{
+func ManAddressToEthAddress(manAddr string) (common.Address, error) {
 	return base58.Base58DecodeToAddress(manAddr)
 }
+
 type KeystoreManager struct {
 	Keystore *keystore.KeyStore
-	ChainID *big.Int
-	Signer types.Signer
+	ChainID  *big.Int
+	Signer   types.Signer
 }
-func NewKeystoreManager(keystoreDir string,chainId int64)* KeystoreManager{
-	ks := &KeystoreManager{Signer:types.NewEIP155Signer(big.NewInt(chainId))}
+
+func NewKeystoreManager(keystoreDir string, chainId int64) *KeystoreManager {
+	ks := &KeystoreManager{Signer: types.NewEIP155Signer(big.NewInt(chainId))}
 	ks.ChainID = big.NewInt(chainId)
-	ks.Keystore = keystore.NewKeyStore(keystoreDir,keystore.StandardScryptN,keystore.StandardScryptP)
+	ks.Keystore = keystore.NewKeyStore(keystoreDir, keystore.StandardScryptN, keystore.StandardScryptP)
 	return ks
 }
 func (ks *KeystoreManager) getDecryptedKey(a accounts.Account, auth string) (accounts.Account, *keystore.Key, error) {
@@ -38,13 +42,13 @@ func (ks *KeystoreManager) getDecryptedKey(a accounts.Account, auth string) (acc
 	key, err := ks.GetKey(a.Address, a.URL.Path, auth)
 	return a, key, err
 }
-func (ks *KeystoreManager) Unlock(manAddr string,password string)error{
-	return ks.TimedUnlock(manAddr,password,0)
+func (ks *KeystoreManager) Unlock(manAddr string, password string) error {
+	return ks.TimedUnlock(manAddr, password, 0)
 }
-func (ks *KeystoreManager) TimedUnlock(manAddr string,password string,timeout time.Duration)error{
-	addr := ManAddressToEthAddress(manAddr)
-	acc := accounts.Account{Address:addr}
-	return ks.Keystore.TimedUnlock(acc,password,timeout)
+func (ks *KeystoreManager) TimedUnlock(manAddr string, password string, timeout time.Duration) error {
+	addr, _ := ManAddressToEthAddress(manAddr)
+	acc := accounts.Account{Address: addr}
+	return ks.Keystore.TimedUnlock(acc, password, timeout)
 }
 func (ks *KeystoreManager) GetKey(addr common.Address, filename, auth string) (*keystore.Key, error) {
 	// Load the key from the keystore and decrypt its contents
@@ -62,22 +66,27 @@ func (ks *KeystoreManager) GetKey(addr common.Address, filename, auth string) (*
 	}
 	return key, nil
 }
-func (ks *KeystoreManager)SignTx(transaction types.SelfTransaction,from string)([]byte,error){
-	addr := ManAddressToEthAddress(from)
-	acc := accounts.Account{Address:addr}
-	tx,err := ks.Keystore.SignTx(acc,transaction,ks.ChainID)
-	tx.(*types.Transaction).Currency = "MAN"
+
+func (ks *KeystoreManager) SignTx(sendTx *common1.SendTxArgs1, from string) (*common1.SendTxArgs1, error) {
+	addr, _ := ManAddressToEthAddress(from)
+	acc := accounts.Account{Address: addr}
+	tx1 := sendTx.ToTransaction()
+	tx, err := ks.Keystore.SignTx(acc, tx1, ks.ChainID)
 	if err != nil {
-		return nil,err
+		return nil, err
 	}
-	return tx.(*types.Transaction).EncodeForRawTransaction()
+	sendTx.R = (*hexutil.Big)(tx.GetTxR())
+	sendTx.S = (*hexutil.Big)(tx.GetTxS())
+	sendTx.V = (*hexutil.Big)(tx.GetTxV())
+	return sendTx, nil
 }
-func (ks *KeystoreManager)SignTxWithPassphrase(transaction types.SelfTransaction,from string, passphrase string)([]byte,error){
-	addr := ManAddressToEthAddress(from)
-	acc := accounts.Account{Address:addr}
-	tx,err := ks.Keystore.SignTxWithPassphrase(acc,passphrase,transaction,ks.ChainID)
+
+func (ks *KeystoreManager) SignTxWithPassphrase(transaction types.SelfTransaction, from string, passphrase string) ([]byte, error) {
+	addr, _ := ManAddressToEthAddress(from)
+	acc := accounts.Account{Address: addr}
+	tx, err := ks.Keystore.SignTxWithPassphrase(acc, passphrase, transaction, ks.ChainID)
 	if err != nil {
-		return nil,err
+		return nil, err
 	}
 	return rlp.EncodeToBytes(tx)
 }

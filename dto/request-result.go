@@ -24,15 +24,12 @@ package dto
 import (
 	"errors"
 	"strconv"
-	"strings"
-
-	"github.com/matrix/go-AIMan/complex/types"
-	"github.com/matrix/go-AIMan/constants"
+	"github.com/go-AIMan/constants"
 
 	"encoding/json"
 	"fmt"
+	"github.com/MatrixAINetwork/go-matrix/common/hexutil"
 	"math/big"
-	"github.com/matrix/go-matrix/common/hexutil"
 )
 
 type RequestResult struct {
@@ -43,29 +40,32 @@ type RequestResult struct {
 	Data    string      `json:"data,omitempty"`
 }
 type RequestResult1 struct {
-	ID      int         `json:"id"`
-	Version string      `json:"jsonrpc"`
-	Result  json.RawMessage	    `json:"result"`
-	Error   *Error      `json:"error,omitempty"`
-	Data    string      `json:"data,omitempty"`
+	ID      int             `json:"id"`
+	Version string          `json:"jsonrpc"`
+	Result  json.RawMessage `json:"result"`
+	Error   *Error          `json:"error,omitempty"`
+	Data    string          `json:"data,omitempty"`
 }
-func NewRequestResult(result interface{})*RequestResult{
+
+func NewRequestResult(result interface{}) *RequestResult {
 	value := &RequestResult{}
 	value.Result = result
 	return value
 }
+
 type Error struct {
 	Code    int         `json:"code"`
 	Message string      `json:"message"`
 	Data    interface{} `json:"data"`
 }
-func (pointer *RequestResult1)UnMarshalResult(result interface{})error{
-	return json.Unmarshal(pointer.Result,result)
+
+func (pointer *RequestResult1) UnMarshalResult(result interface{}) error {
+	return json.Unmarshal(pointer.Result, result)
 }
-func (pointer *RequestResult1)ToBigInt()(*big.Int,error){
+func (pointer *RequestResult1) ToBigInt() (*big.Int, error) {
 	value := new(hexutil.Big)
-	err := json.Unmarshal(pointer.Result,&value)
-	return value.ToInt(),err
+	err := json.Unmarshal(pointer.Result, &value)
+	return value.ToInt(), err
 }
 func (pointer *RequestResult) ToStringArray() ([]string, error) {
 
@@ -84,17 +84,17 @@ func (pointer *RequestResult) ToStringArray() ([]string, error) {
 
 }
 
-func (pointer *RequestResult) ToComplexString() (types.ComplexString, error) {
-
-	if err := pointer.checkResponse(); err != nil {
-		return "", err
-	}
-
-	result := (pointer).Result.(interface{})
-
-	return types.ComplexString(result.(string)), nil
-
-}
+//func (pointer *RequestResult) ToComplexString() (types.ComplexString, error) {
+//
+//	if err := pointer.checkResponse(); err != nil {
+//		return "", err
+//	}
+//
+//	result := (pointer).Result.(interface{})
+//
+//	return types.ComplexString(result.(string)), nil
+//
+//}
 
 func (pointer *RequestResult) ToString() (string, error) {
 
@@ -150,30 +150,30 @@ func (pointer *RequestResult) ToBigInt() (*big.Int, error) {
 	return ret, nil
 }
 
-func (pointer *RequestResult) ToComplexIntResponse() (types.ComplexIntResponse, error) {
-
-	if err := pointer.checkResponse(); err != nil {
-		return types.ComplexIntResponse(0), err
-	}
-
-	result := (pointer).Result.(interface{})
-
-	var hex string
-
-	switch v := result.(type) {
-	//Testrpc returns a float64
-	case float64:
-		hex = strconv.FormatFloat(v, 'E', 16, 64)
-		break
-	default:
-		hex = result.(string)
-	}
-
-	cleaned := strings.TrimPrefix(hex, "0x")
-
-	return types.ComplexIntResponse(cleaned), nil
-
-}
+//func (pointer *RequestResult) ToComplexIntResponse() (types.ComplexIntResponse, error) {
+//
+//	if err := pointer.checkResponse(); err != nil {
+//		return types.ComplexIntResponse(0), err
+//	}
+//
+//	result := (pointer).Result.(interface{})
+//
+//	var hex string
+//
+//	switch v := result.(type) {
+//	//Testrpc returns a float64
+//	case float64:
+//		hex = strconv.FormatFloat(v, 'E', 16, 64)
+//		break
+//	default:
+//		hex = result.(string)
+//	}
+//
+//	cleaned := strings.TrimPrefix(hex, "0x")
+//
+//	return types.ComplexIntResponse(cleaned), nil
+//
+//}
 
 func (pointer *RequestResult) ToBoolean() (bool, error) {
 
@@ -211,7 +211,6 @@ func (pointer *RequestResult) ToSignTransactionResponse() (*SignTransactionRespo
 	return signTransactionResponse, err
 }
 
-
 func (pointer *RequestResult) ToTransactionReceipt() (*TransactionReceipt, error) {
 
 	if err := pointer.checkResponse(); err != nil {
@@ -237,7 +236,6 @@ func (pointer *RequestResult) ToTransactionReceipt() (*TransactionReceipt, error
 	return transactionReceipt, err
 
 }
-
 
 func (pointer *RequestResult) ToSyncingResponse() (*SyncingResponse, error) {
 
