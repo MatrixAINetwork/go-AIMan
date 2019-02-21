@@ -1,7 +1,7 @@
 package waiting
 
 import (
-	"github.com/go-AIMan/common"
+	"github.com/MatrixAINetwork/go-AIMan/common"
 	"math/big"
 )
 

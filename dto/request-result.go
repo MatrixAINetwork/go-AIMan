@@ -24,7 +24,7 @@ package dto
 import (
 	"errors"
 	"strconv"
-	"github.com/go-AIMan/constants"
+	"github.com/MatrixAINetwork/go-AIMan/constants"
 
 	"encoding/json"
 	"fmt"

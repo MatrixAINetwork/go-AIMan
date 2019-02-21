@@ -1,8 +1,8 @@
 package waiting
 
 import (
-	"github.com/go-AIMan/dto"
-	"github.com/go-AIMan/manager"
+	"github.com/MatrixAINetwork/go-AIMan/dto"
+	"github.com/MatrixAINetwork/go-AIMan/manager"
 	"time"
 )
 

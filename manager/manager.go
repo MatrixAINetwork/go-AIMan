@@ -1,8 +1,8 @@
 package manager
 
 import (
-	"github.com/go-AIMan/AIMan"
-	"github.com/go-AIMan/Accounts"
+	"github.com/MatrixAINetwork/go-AIMan/AIMan"
+	"github.com/MatrixAINetwork/go-AIMan/Accounts"
 )
 
 //var (

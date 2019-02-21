@@ -22,9 +22,9 @@
 package utils
 
 import (
-	"github.com/go-AIMan/complex/types"
-	"github.com/go-AIMan/dto"
-	"github.com/go-AIMan/providers"
+	"github.com/MatrixAINetwork/go-AIMan/complex/types"
+	"github.com/MatrixAINetwork/go-AIMan/dto"
+	"github.com/MatrixAINetwork/go-AIMan/providers"
 )
 
 // Utils - The Utils Module

@@ -22,11 +22,11 @@
 package AIMan
 
 import (
-	"github.com/go-AIMan/dto"
-	"github.com/go-AIMan/man"
+	"github.com/MatrixAINetwork/go-AIMan/dto"
+	"github.com/MatrixAINetwork/go-AIMan/man"
 	//"github.com/MatrixAINetwork/go-AIMan/net"
 	//"github.com/MatrixAINetwork/go-AIMan/personal"
-	"github.com/go-AIMan/providers"
+	"github.com/MatrixAINetwork/go-AIMan/providers"
 	//"github.com/MatrixAINetwork/go-AIMan/utils"
 )
 

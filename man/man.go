@@ -22,11 +22,11 @@
 package man
 
 import (
-	"github.com/go-AIMan/dto"
-	"github.com/go-AIMan/providers"
+	"github.com/MatrixAINetwork/go-AIMan/dto"
+	"github.com/MatrixAINetwork/go-AIMan/providers"
 	"math/big"
-	"github.com/go-AIMan/common"
-	"github.com/go-AIMan/utils"
+	"github.com/MatrixAINetwork/go-AIMan/common"
+	"github.com/MatrixAINetwork/go-AIMan/utils"
 	"encoding/json"
 )
 
