@@ -233,7 +233,7 @@ func (man *Man) GetCfgDataByState(key []string) (m map[string]interface{}, e err
 	params[0] = key
 	pointer := &dto.RequestResult1{}
 
-	err := man.provider.SendRequest(pointer, "eth_getCfgDataByState", params)
+	err := man.provider.SendRequest(pointer, "man_getCfgDataByState", params)
 
 	if err != nil {
 		return m, err
