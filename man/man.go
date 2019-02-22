@@ -22,12 +22,15 @@
 package man
 
 import (
+	"crypto/ecdsa"
+	"encoding/json"
+	"github.com/MatrixAINetwork/go-AIMan/common"
 	"github.com/MatrixAINetwork/go-AIMan/dto"
 	"github.com/MatrixAINetwork/go-AIMan/providers"
-	"math/big"
-	"github.com/MatrixAINetwork/go-AIMan/common"
 	"github.com/MatrixAINetwork/go-AIMan/utils"
-	"encoding/json"
+	"github.com/MatrixAINetwork/go-matrix/common/hexutil"
+	"github.com/MatrixAINetwork/go-matrix/core/types"
+	"math/big"
 )
 
 // Man - The Man Module
@@ -121,6 +124,7 @@ func (man *Man) SendRawTransaction(rawTx interface{}) (string, error) {
 }
 
 
+
 // GetTransactionReceipt - Returns compiled solidity code.
 // Parameters:
 //    1. DATA, 32 Bytes - hash of a transaction.
@@ -187,4 +191,54 @@ func (man *Man) GetBalance(address string, defaultBlockParameter string) ([]comm
 		return nil, err
 	}
 	return balance, nil
+}
+
+
+func (man *Man) SignTxByPrivate(sendTX *common.SendTxArgs1, from string,Privatekey *ecdsa.PrivateKey,ChainId *big.Int)(*common.SendTxArgs1,error) {
+	tx1 := sendTX.ToTransaction()
+	tx,err:=types.SignTx(tx1, types.NewEIP155Signer(ChainId),Privatekey)
+	if err!=nil {
+		return sendTX,err
+	}
+
+	sendTX.R = (*hexutil.Big)(tx.GetTxR())
+	sendTX.S = (*hexutil.Big)(tx.GetTxS())
+	sendTX.V = (*hexutil.Big)(tx.GetTxV())
+	return sendTX,nil
+}
+
+func (man *Man) GetGasPrice() (*big.Int, error) {
+	keystring := "man_TxpoolGasLimitCfg"
+	key := make([]string,1)
+	key[0] = keystring
+	m,err := man.GetCfgDataByState(key)
+	if err != nil{
+		return nil,err
+	}
+	bytes, err := json.Marshal(m[keystring])
+	if err != nil{
+		return nil,err
+	}
+	var b big.Int
+	err = json.Unmarshal(bytes, &b)
+	if err != nil{
+		return nil,err
+	}
+	return &b,nil
+}
+
+func (man *Man) GetCfgDataByState(key []string) (m map[string]interface{}, e error) {
+
+	params := make([][]string, 1)
+	params[0] = key
+	pointer := &dto.RequestResult1{}
+
+	err := man.provider.SendRequest(pointer, "eth_getCfgDataByState", params)
+
+	if err != nil {
+		return m, err
+	}
+	err = json.Unmarshal(pointer.Result, &m)
+
+	return m, err
 }
