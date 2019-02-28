@@ -208,37 +208,11 @@ func (man *Man) SignTxByPrivate(sendTX *common.SendTxArgs1, from string,Privatek
 }
 
 func (man *Man) GetGasPrice() (*big.Int, error) {
-	keystring := "man_TxpoolGasLimitCfg"
-	key := make([]string,1)
-	key[0] = keystring
-	m,err := man.GetCfgDataByState(key)
-	if err != nil{
-		return nil,err
-	}
-	bytes, err := json.Marshal(m[keystring])
-	if err != nil{
-		return nil,err
-	}
-	var b big.Int
-	err = json.Unmarshal(bytes, &b)
-	if err != nil{
-		return nil,err
-	}
-	return &b,nil
-}
-
-func (man *Man) GetCfgDataByState(key []string) (m map[string]interface{}, e error) {
-
-	params := make([][]string, 1)
-	params[0] = key
-	pointer := &dto.RequestResult1{}
-
-	err := man.provider.SendRequest(pointer, "man_getCfgDataByState", params)
-
+	pointer := &dto.RequestResult{}
+	err := man.provider.SendRequest(pointer, "man_getGasPrice", nil)
 	if err != nil {
-		return m, err
+		return nil, err
 	}
-	err = json.Unmarshal(pointer.Result, &m)
-
-	return m, err
+	price ,err := pointer.ToBigInt()
+	return price, err
 }
