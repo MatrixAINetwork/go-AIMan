@@ -40,10 +40,20 @@ type TxHandle struct {
 	Filter []TransactionFilter
 }
 
+//func (Tf *TxHandle) HandleBlock(block *common.Block) {
+//	for i := 0; i < len(block.Transactions); i++ {
+//		for _, item := range Tf.Filter {
+//			item.HandleTx(block.Transactions[i])
+//		}
+//	}
+//}
+
 func (Tf *TxHandle) HandleBlock(block *common.Block) {
-	for i := 0; i < len(block.Transactions); i++ {
-		for _, item := range Tf.Filter {
-			item.HandleTx(block.Transactions[i])
+	for _,txs := range block.Transactions{
+		for i := 0; i < len(txs); i++ {
+			for _, item := range Tf.Filter {
+				item.HandleTx(txs[i])
+			}
 		}
 	}
 }

@@ -326,52 +326,82 @@ type NetTopologyData1 struct {
 	Account  string
 	Position uint16
 }
+//type BlockHeader11 struct {
+//	Number   *hexutil.Big `json:"number"`
+//	Hash     string       `json:"hash"`
+//	SignHash string       `json:"signHash"`
+//	Leader   string       `json:"leader"`
+//	//	Coinbase   string   `json:"miner"`
+//	ParentHash       string              `json:"parentHash"`
+//	Author           string              `json:"author,omitempty"`
+//	Miner            string              `json:"miner,omitempty"`
+//	StateRoot        string              `json:"stateRoot,omitempty"`
+//	TransactionsRoot string              `json:"transactionsRoot,omitempty"`
+//	ReceiptsRoot     string              `json:"receiptsRoot,omitempty"`
+//	Size             *hexutil.Big        `json:"size"`
+//	GasUsed          *hexutil.Big        `json:"gasUsed"`
+//	Nonce            string              `json:"nonce"`
+//	Timestamp        *hexutil.Big        `json:"timestamp"`
+//	Elect            *[]Elect1           `json:"elect" gencodec:"required"`
+//	NetTopology      *NetTopology1       `json:"nettopology"        gencodec:"required"`
+//	Signatures       *[]common.Signature `json:"signatures" gencodec:"required"`
+//	Version          hexutil.Bytes       `json:"version"`
+//	VrfValue         hexutil.Bytes       `json:"VrfValue"`
+//}
+type BlockNonce [8]byte
 type BlockHeader struct {
-	Number   *hexutil.Big `json:"number"`
-	Hash     string       `json:"hash"`
-	SignHash string       `json:"signHash"`
-	Leader   string       `json:"leader"`
-	//	Coinbase   string   `json:"miner"`
-	ParentHash       string              `json:"parentHash"`
-	Author           string              `json:"author,omitempty"`
-	Miner            string              `json:"miner,omitempty"`
-	StateRoot        string              `json:"stateRoot,omitempty"`
-	TransactionsRoot string              `json:"transactionsRoot,omitempty"`
-	ReceiptsRoot     string              `json:"receiptsRoot,omitempty"`
-	Size             *hexutil.Big        `json:"size"`
-	GasUsed          *hexutil.Big        `json:"gasUsed"`
-	Nonce            string              `json:"nonce"`
-	Timestamp        *hexutil.Big        `json:"timestamp"`
-	Elect            *[]Elect1           `json:"elect" gencodec:"required"`
-	NetTopology      *NetTopology1       `json:"nettopology"        gencodec:"required"`
-	Signatures       *[]common.Signature `json:"signatures" gencodec:"required"`
-	Version          hexutil.Bytes       `json:"version"`
-	VrfValue         hexutil.Bytes       `json:"VrfValue"`
+	Number      *hexutil.Big         `json:"number"           gencodec:"required"`
+	Hash 		common.Hash 		`json:"hash"`
+	SignHash 	common.Hash 		`json:"signHash"`
+	ParentHash  common.Hash        	`json:"parentHash"       gencodec:"required"`
+	Nonce       string         		 `json:"nonce"            gencodec:"required"`
+	MixDigest  	common.Hash    		`json:"mixHash"          gencodec:"required"`
+	UncleHash   common.Hash        	`json:"sha3Uncles"`
+	Uncles   	[]common.Hash       `json:"uncles"`
+	Roots       []common.CoinRoot  	`json:"stateRoot"`
+	Sharding    []common.Coinbyte  	`json:"sharding"`
+	Coinbase    string     			`json:"miner"`
+	Difficulty  *hexutil.Big         `json:"difficulty"`
+	TotalDifficulty  *hexutil.Big    `json:"totalDifficulty"`
+	Extra             hexutil.Bytes  `json:"extraData"`
+	Size    hexutil.Uint64           `json:"size"`
+	GasLimit    hexutil.Uint64       `json:"gasLimit"`
+	GasUsed     hexutil.Uint64       `json:"gasUsed"`
+	Time        *hexutil.Big         `json:"timestamp"`
+	Leader      string     			`json:"leader"`
+	Elect       []common.Elect     	`json:"elect"`
+	NetTopology common.NetTopology 	`json:"nettopology"`
+	Signatures  []common.Signature 	`json:"signatures"`
+	Version     hexutil.Bytes       `json:"version"`
+	VrfValue    hexutil.Bytes       `json:"vrfvalue"`
 }
 type FullBlock struct {
 	BlockHeader
-	Transactions []*RPCTransaction `json:"transactions"`
+	//Transactions []*RPCTransaction `json:"transactions"`
+	Transactions map[string][]*RPCTransaction  `json:"transactions"`
 }
 type HashBlock struct {
 	BlockHeader
-	TxHashs []string `json:"transactions"`
+	//TxHashs []string `json:"transactions"`
 }
 type Block struct {
 	BlockHeader
-	Transactions []*RPCTransaction `json:"transactions"`
-	TxHashs      []string          `json:"transactions"`
+	//Transactions []*RPCTransaction `json:"transactions"`
+	Transactions map[string][]*RPCTransaction  `json:"transactions"`
+	//TxHashs      []string          `json:"transactions"`
 }
 
 func UnmarshalBlock(buff []byte, fullTx bool) (*Block, error) {
 	if fullTx {
 		block := &FullBlock{}
 		err := json.Unmarshal(buff, block)
-		result := &Block{block.BlockHeader, block.Transactions, nil}
+		result := &Block{block.BlockHeader, block.Transactions}
 		return result, err
 	} else {
 		block := &HashBlock{}
 		err := json.Unmarshal(buff, block)
-		result := &Block{block.BlockHeader, nil, block.TxHashs}
+		//result := &Block{block.BlockHeader, nil, block.TxHashs}
+		result := &Block{block.BlockHeader,nil}
 		return result, err
 	}
 
