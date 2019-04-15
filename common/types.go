@@ -369,8 +369,8 @@ type BlockHeader struct {
 	GasUsed     hexutil.Uint64       `json:"gasUsed"`
 	Time        *hexutil.Big         `json:"timestamp"`
 	Leader      string     			`json:"leader"`
-	Elect       []common.Elect     	`json:"elect"`
-	NetTopology common.NetTopology 	`json:"nettopology"`
+	Elect       []common.Elect1     	`json:"elect"`
+	NetTopology common.NetTopology1 	`json:"nettopology"`
 	Signatures  []common.Signature 	`json:"signatures"`
 	Version     hexutil.Bytes       `json:"version"`
 	VrfValue    hexutil.Bytes       `json:"vrfvalue"`
