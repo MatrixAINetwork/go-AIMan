@@ -13,6 +13,8 @@ import (
 	"io/ioutil"
 	"math/big"
 	"time"
+	strings "strings"
+	"github.com/MatrixAINetwork/go-matrix/crc8"
 )
 
 func EthAddressToManAddress(address common.Address) string {
@@ -89,4 +91,39 @@ func (ks *KeystoreManager) SignTxWithPassphrase(transaction types.SelfTransactio
 		return nil, err
 	}
 	return rlp.EncodeToBytes(tx)
+}
+
+
+func checkCrc8(strData string) bool {
+	Crc := strData[len(strData)-1 : len(strData)]
+	reCrc := crc8.CalCRC8([]byte(strData[0 : len(strData)-1]))
+	ModCrc := reCrc % 58
+	ret := base58.EncodeInt(ModCrc)
+	if Crc != ret {
+		return false
+	}
+	return true
+}
+func checkCurrency(strData string) bool {
+	currency := strings.Split(strData, ".")[0]
+	return common.IsValidityManCurrency(currency)
+}
+func checkFormat(strData string) bool {
+	if !strings.Contains(strData, ".") {
+		return false
+	}
+	return true
+}
+func CheckIsManAddress(strData string) bool {
+	strData = strings.TrimSpace(strData)
+	if !checkFormat(strData) {
+		return false
+	}
+	if !checkCrc8(strData) {
+		return false
+	}
+	if !checkCurrency(strData) {
+		return false
+	}
+	return true
 }

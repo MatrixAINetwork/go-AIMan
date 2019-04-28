@@ -31,6 +31,7 @@ import (
 	"github.com/MatrixAINetwork/go-matrix/common/hexutil"
 	"github.com/MatrixAINetwork/go-matrix/core/types"
 	"math/big"
+	"github.com/MatrixAINetwork/go-AIMan/transactions"
 )
 
 // Man - The Man Module
@@ -123,7 +124,23 @@ func (man *Man) SendRawTransaction(rawTx interface{}) (string, error) {
 	return pointer.ToString()
 }
 
+func (man *Man) SendStringRawTransaction(rawTx string) (string, error) {
+	params := make([]interface{}, 1)
+	tx ,err := transactions.StringToSendTxArgs1(rawTx)
+	if err != nil{
+		return "",err
+	}
+	params[0] = tx
 
+	pointer := &dto.RequestResult{}
+
+	err = man.provider.SendRequest(&pointer, "man_sendRawTransaction", params)
+
+	if err != nil {
+		return "", err
+	}
+	return pointer.ToString()
+}
 
 // GetTransactionReceipt - Returns compiled solidity code.
 // Parameters:
